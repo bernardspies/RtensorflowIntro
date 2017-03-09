@@ -17,6 +17,8 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r intro}
 #devtools::install_github("rstudio/tensorflow")
+#http://stackoverflow.com/questions/14491928/cmd-not-recognised-in-maven
+
 library(tensorflow)
 
 sess = tf$Session()
